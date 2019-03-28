@@ -1,18 +1,5 @@
-//입출력 제어부
+//입출력 헤더
 #include <cstdio>
-//#include <windows.h>
-
-//일반 유틸리티
-#include <algorithm>
-#include <cmath>
-#include <limits>
-
-//문자열
-#include <cstring>
-
-//자료구조
-#include <queue>
-#include <vector>
 
 using namespace std;
 
