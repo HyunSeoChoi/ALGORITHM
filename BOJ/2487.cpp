@@ -7,17 +7,15 @@ int n;
 int arr[20001];
 bool visited[20001];
 
-
 int gcd(int a, int b)
 {
-	return b ? gcd(b, a%b) : a;
+	return b ? gcd(b, a % b) : a;
 }
 
 int lcm(int a, int b)
 {
 	return a / gcd(a, b) * b;
 }
-
 
 int main()
 {
@@ -56,7 +54,6 @@ int main()
 		}
 		res = lcm(res, cnt);
 	}
-
 
 	printf("%d", res);
 }

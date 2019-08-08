@@ -9,16 +9,16 @@ int ans; // 0 initialization
 void dfs(int len, int cnt)
 {
     //printf("%d %d\n", len, cnt);
-    if(len == 2 * n) // n개의 괄호를 여닫아 2*n으로 표시
+    if (len == 2 * n) // n개의 괄호를 여닫아 2*n으로 표시
     {
-        if(!cnt)
+        if (!cnt)
         {
-            ans ++;
+            ans++;
         }
         return;
     }
 
-    if(cnt < 0 || cnt > n)
+    if (cnt < 0 || cnt > n)
     {
         return;
     }
