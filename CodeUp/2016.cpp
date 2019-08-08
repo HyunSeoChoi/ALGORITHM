@@ -16,10 +16,9 @@ int main()
 
     scanf("%s", str);
 
-
-    for(int i=0;i<strlen(str);i++)
+    for (int i = 0; i < strlen(str); i++)
     {
-        if(i%3 == n%3 && i!=0)
+        if (i % 3 == n % 3 && i != 0)
         {
             printf(",");
         }
@@ -27,4 +26,3 @@ int main()
         printf("%c", str[i]);
     }
 }
-
